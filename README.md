@@ -123,7 +123,7 @@ hook.Timeout = 20*time.Second
 ## Enabling Stacktraces
 
 By default the hook will not send any stacktraces. However, this can be enabled
-with:
+with -
 
 ```go
 hook, _ := logrussentry.NewSentryHook(...)
